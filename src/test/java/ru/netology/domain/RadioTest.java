@@ -51,7 +51,7 @@ class RadioTest {
 
     @Test
     public void nextStationMax() {
-        Radio radio = new Radio(20, 50, 20 );
+        Radio radio = new Radio(20, 50, 20);
         radio.nextStation();
         assertEquals(0, radio.getCurrentStation());
     }
